@@ -73,11 +73,3 @@ for (var i = 0; i < menus_item_child.length; i++) {
 
 
 
-var banner = new xkTool(
-  "https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/top_img.jpg"
-);
-
-banner.mobileSidebar();
-banner.codeFull();
-banner.consoleAnchor();
-banner.bgPage();
