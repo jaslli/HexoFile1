@@ -164,9 +164,12 @@
 
 
 var wsl = new xkTool();
-
-
 wsl.mobileSidebar();
 wsl.codeFull();
 wsl.consoleAnchor();
 wsl.bgPage();
+
+wsl.appendSocial({
+    "icon-github": "//at.alicdn.com/t/font_1908284_r8aeinai1fl.js",
+    "icon-QQ": "//at.alicdn.com/t/font_1908284_r8aeinai1fl.js",
+  });
