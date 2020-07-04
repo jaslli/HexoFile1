@@ -5,7 +5,7 @@
     n.prototype = {
         constructor: n,
         init: function (e) {
-            return this.changeBanner(e), console.log("\n %c 小康蝴蝶主题魔改工具库" + this.version + " %c https://www.tzki.cn/xkTool/ \n", "color: #fff; background: #4285f4; padding:5px 0;", "background: #66CCFF; padding:5px 0;"), this
+            return this.changeBanner(e), console.log("\n %c 部分样式来自小康蝴蝶主题魔改工具库" + this.version + " %c https://www.tzki.cn/xkTool/ \n", "color: #fff; background: #4285f4; padding:5px 0;", "background: #66CCFF; padding:5px 0;"), this
         },
         selector: "",
         imgList: ["https://ae01.alicdn.com/kf/Hdfb4baf1c40a4b73a6662184b1016b39Y.jpg"],
