@@ -170,6 +170,6 @@ wsl.consoleAnchor();
 wsl.bgPage();
 
 wsl.appendSocial({
-    "icon-github": "//at.alicdn.com/t/font_1908284_r8aeinai1fl.js",
-    "icon-QQ": "//at.alicdn.com/t/font_1908284_r8aeinai1fl.js",
+    "icon-github": "https://github.com/jaslli",
+    "icon-QQ": "tencent://message/?Menu=yes&amp;amp;uin=1141950370&amp;amp;Service=300&amp;amp;sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45",
   });
