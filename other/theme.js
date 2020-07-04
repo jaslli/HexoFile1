@@ -70,3 +70,14 @@ for (var i = 0; i < menus_item_child.length; i++) {
   menus_item_child[i].style.display = "none";
   menus_expand[i].className += " menus-closed";
 }
+
+
+
+var banner = new xkTool(
+  "https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/top_img.jpg"
+);
+
+banner.mobileSidebar();
+banner.codeFull();
+banner.consoleAnchor();
+banner.bgPage();
