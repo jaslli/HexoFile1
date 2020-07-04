@@ -163,9 +163,7 @@
 
 
 
-var wsl = new xkTool(
-    "https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/top_img.jpg"
-);
+var wsl = new xkTool();
 
 
 wsl.mobileSidebar();
