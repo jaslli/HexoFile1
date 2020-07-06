@@ -170,7 +170,7 @@ wsl.consoleAnchor();
 wsl.bgPage();
 
 wsl.appendSocial({
-    "iconGitHub": "mailto:1141950370@qq.com",
-    "iconEmail": "https://github.com/jaslli",
+    "iconGitHub": "https://github.com/jaslli",
+    "iconEmail": "mailto:1141950370@qq.com",
     "iconQQ": "tencent://message/?Menu=yes&amp;amp;uin=1141950370&amp;amp;Service=300&amp;amp;sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45",
   });
