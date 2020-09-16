@@ -1,3 +1,7 @@
+/* 背景渐变 */
+#web_bg {
+    background: linear-gradient(102.7deg,#fddaff 8.2%,#dfadfc 19.6%,#adcdfc 36.8%,#adfcf4 73.2%,#caf8d0 90.9%);
+}
 
 /* 鼠标样式 */
 body {
@@ -54,3 +58,17 @@ img {
     color: #fff;
     background-color: #49b1f5;
   }
+
+
+/* 版权链接去掉下划线 */
+
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+}
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
