@@ -18,7 +18,7 @@ document.addEventListener('visibilitychange', function() {
         clearTimeout(titleTime);
     } else {
         $('[rel="icon"]').attr('href', "/img/favicon.ico");
-        document.title = 'ya 又好了' + OriginTitle;
+        document.title = 'ya 又好了';
         titleTime = setTimeout(function() {
             document.title = OriginTitle;
         }, 2000);
