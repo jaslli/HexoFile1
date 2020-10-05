@@ -126,7 +126,11 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-  #page-header.full_page{
+  #page-header{
     background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg);
+  }
+  #aside_content div:not(:last-child) {
+    display: none;
+    font-size: 13px;
   }
 }
