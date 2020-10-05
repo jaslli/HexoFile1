@@ -125,8 +125,8 @@ img {
   background-color: rgba(0, 0, 0, 0);
 }
 
-@media only screen and (max-width: 500px) {
-  #header{
+@media only screen and (max-width: 800px) {
+  #page-header.full_page{
     background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg);
   }
 }
