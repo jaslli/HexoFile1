@@ -126,19 +126,19 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-  #body-wrap.full_page{
+  .full_page{
     background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg);
   }
-  #aside_content.card-widget card-announcement {
+  .card-widget card-announcement {
     display: none;
   }
-  #aside_content.card-widget card-recent-post {
+  .card-widget card-recent-post {
     display: none;
   }
-  #aside_content.card-widget card-categories {
+  .card-widget card-categories {
     display: none;
   }
-  #aside_content.card-widget card-archives {
+  .card-widget card-archives {
     display: none;
   }
 }
