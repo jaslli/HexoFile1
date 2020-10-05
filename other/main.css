@@ -124,3 +124,9 @@ img {
 #subtitle:before {
   background-color: rgba(0, 0, 0, 0);
 }
+
+@media only screen and (max-width: 500px) {
+  #header{
+    background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg);
+  }
+}
