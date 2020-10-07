@@ -125,20 +125,31 @@ img {
   background-color: rgba(0, 0, 0, 0);
 }
 
-@media only screen and (max-width: 800px) {
-  .full_page{
-    background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg);
-  }
-  .card-widget card-announcement {
+
+/* 移动端的优化 */
+@media screen and (max-width: 800px) {
+  .card-announcement{
     display: none;
   }
-  .card-widget card-recent-post {
+  .card-recent-post{
     display: none;
   }
-  .card-widget card-categories {
+  .card-categories{
     display: none;
   }
-  .card-widget card-archives {
+  .card-archives{
     display: none;
   }
+
+  #page-header{
+    background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/about_top_img.jpg) !important;
+  }
+}
+
+/*修改标题*/
+#site-info h1{
+  display: none
+}
+#site-info::after{
+  content: none
 }
