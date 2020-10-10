@@ -1,6 +1,8 @@
 /* 背景渐变 */
 #web_bg {
-    background: linear-gradient(102.7deg,#fddaff 8.2%,#dfadfc 19.6%,#adcdfc 36.8%,#adfcf4 73.2%,#caf8d0 90.9%);
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* 鼠标样式 */
@@ -152,4 +154,12 @@ img {
 }
 #site-info::after{
   content: none
+}
+
+/*页脚字体颜色*/
+#footer-wrap {
+  position: relative;
+  padding: 2rem 1rem;
+  color: #BBFFFF;
+  text-align: center;
 }
