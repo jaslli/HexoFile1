@@ -35,7 +35,7 @@
 var svg = {
     "iconQQ": "http://wpa.qq.com/msgrd?V=3&uin=1141950370",
     "iconGitHub": "https://github.com/jaslli",
-    "iconEmail": "mailto:1141950370@qq.com",
+    "iconEmail": "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=1141950370@qq.com",
 };
 for (var i in svg) {
     $(".card-info-social-icons").append('<a class="social-icon" href="' + svg[i] + '" target="_blank"><svg class="icon" aria-hidden="true" style="width: 1.25em;height: 1.25em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;"><use xlink:href="#' + i + '"></use></svg></a>')
