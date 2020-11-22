@@ -50,7 +50,7 @@ var avatar = document.querySelector("#aside_content .card-info img");
           : GLOBAL_CONFIG.Snackbar.bgDark
       var snackbarPos = GLOBAL_CONFIG.Snackbar.position
       Snackbar.show({
-        text: '已更新最新版本',
+        text: '✨ 网站已经更新最新版本 👉',
         backgroundColor: snackbarBg,
         duration: 500000,
         pos: snackbarPos,
