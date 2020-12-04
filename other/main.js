@@ -20,15 +20,6 @@ $(document).ready(function(e) {
     $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> Yw');
 });
 
-//  头像变化
-var avatar = document.querySelector("#aside_content .card-info img");
-    avatar.onmouseover = function () {
-      avatar.style.cssText = "animation: bigger 2s;width:115px; height:115px; border:3px solid #ff4000; padding:3px;";
-    }
-    avatar.onmouseout = function () {
-        avatar.style.cssText = "animation: smaller 2s;width:105px; height:105px;";
-    }
-
 //  pwa
   if ('serviceWorker' in navigator) {
     if (navigator.serviceWorker.controller) {
