@@ -38,6 +38,6 @@ var svg = {
     "icon-Email": "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=1141950370@qq.com",
 };
 for (var i in svg) {
-    $(".card-info-social-icons").append('<a class="social-icon" href="' + svg[i] + '" target="_blank"><svg class="icon" aria-hidden="true" style="width: 1.25em;height: 1.25em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;"><use xlink:href="#' + i + '"></use></svg></a>')
+    $(".card-info-social-icons is-center").append('<a class="social-icon" href="' + svg[i] + '" target="_blank"><svg class="icon" aria-hidden="true" style="width: 1.25em;height: 1.25em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;"><use xlink:href="#' + i + '"></use></svg></a>')
 }
 
