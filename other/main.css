@@ -68,9 +68,6 @@ img {
         default;
 }
 
-
-
-
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
@@ -196,7 +193,7 @@ img {
   }
 
   #page-header{
-    background-image: url(https://cdn.jsdelivr.net/gh/jaslli/HexoFile1@latest/screen_top_img.jpg) !important;
+    background-image: url(https://api.btstu.cn/sjbz/api.php?method=mobile&lx=dongman&format=images) !important;
   }
 }
 
@@ -217,57 +214,6 @@ img {
 }
 #footer-wrap a {
   color: #2b0eac;
-}
-
-
-/* 评论框  */
-
-.vwrap {
-  box-shadow: 2px 2px 5px #bbb;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  padding: 30px;
-  margin: 30px 0px 30px 0px;
-}
-
-
-/* 提交按钮 */
-
-#vcomment button {
-  padding: 0.3rem 0.8rem;
-  border-color: #fff;
-  background-color: #e58a8a;
-  color: #fff;
-  font-size: 0.7rem;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-/* 评论区代码块 */
-
-.v[data-class=v] code {
-  color: #c7254e;
-  background-color: #F9F2F4;
-}
-/* 设置评论框 */
-.vcard {
-  box-shadow: 2px 2px 5px #bbb;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  padding: 30px;
-  margin: 30px 0px 0px 0px;
-}
-
-
-/* 取消回复聊天框 */
-
-.vquote .vcard {
-  box-shadow: 2px 2px 5px transparent;
-  background: rgba(255, 255, 255, 0.0);
-  padding: 0px;
 }
 
 /* 可爱的打招呼 */
